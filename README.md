@@ -84,7 +84,9 @@ http://localhost:8080/swagger-ui.html#/
 
 Below command can be used to invoke the application
 
+```
 mvn spring-boot:run
+```
 
 **********************************************************************
 
@@ -94,6 +96,7 @@ This App is now available as a docker image
 
 To access this image , please use below command
 
+```
 docker pull balasr3/oddsapi
-
+```
 **********************************************************************
