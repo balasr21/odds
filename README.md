@@ -68,6 +68,7 @@ This project provides options to place odds and retrieves odds for an User
      Ideally we can make it as configurable and pass it during App Boot.
   8. data.sql placed in the /resources path is responsible for creation and population of entity and data
   9. Maintained status for Bets , Odds and User   
+  10.Currently only default profile is used in application.properties but if required this can be extended to use environment specific ones
   
 **********************************************************************
  
@@ -84,5 +85,15 @@ http://localhost:8080/swagger-ui.html#/
 Below command can be used to invoke the application
 
 mvn spring-boot:run
+
+**********************************************************************
+
+## 4.1 Docker
+
+This App is now available as a docker image
+
+To access this image , please use below command
+
+docker pull balasr3/oddsapi
 
 **********************************************************************
